@@ -12,6 +12,6 @@ class EmailParser
   end
 
   def parse
-    array = self.split(", ")
+    array = self.split("," " ")
   end
 end
